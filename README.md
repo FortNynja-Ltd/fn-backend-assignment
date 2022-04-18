@@ -38,8 +38,11 @@
 ### Associations
 
 - A `CompanyUser` can only have one `Company`.
-- `CompanyUser` can create many `Bounties`.
-- `Moderator` can create `CompanyUser` and `Company`, but not `Bounty`.
+- A `CompanyUser` can create `Bounties`.
+- A `Moderator` can create `CompanyUsers` and `Companies`, but not `Bounty`.
+
+### Business logic
+
 - Only a `Moderator` can approve or reject a `Bounty`.
 - Only approved bounties are publicly viewable. `Moderator` can view all bounties.
 - Approved bounties can be filtered based on companies.
