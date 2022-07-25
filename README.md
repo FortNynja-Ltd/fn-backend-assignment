@@ -74,7 +74,7 @@
 ### System dependencies
 
 - Ruby 3.1.2
-- Rails 6.1.5
+- Rails 6.1.6.1
 
 ### Login to get access token
 
